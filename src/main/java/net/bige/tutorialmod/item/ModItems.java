@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     //actual item registration here
-
+    public static final Item TESTING_ITEM = registerItem("testing_item", new Item(new Item.Settings()));
 
     //this is to register the item into the game files
     private static Item registerItem(String name, Item item){
