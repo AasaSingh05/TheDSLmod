@@ -2,16 +2,18 @@
 	"schemaVersion": 1,
 	"id": "tutorialmod",
 	"version": "${version}",
-	"name": "TutorialMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "TheDSLmod",
+	"description": "Just a silly and dumb mod i made for my friends with heaps of inside jokes :)",
 	"authors": [
-		"Me!"
+		"Big_E",
+		"Big_Man_Nova",
+		"Aasa Singh Bhui"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://https://github.com/AasaSingh05/TheDSLmod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
