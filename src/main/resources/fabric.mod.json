@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.bige.tutorialmod.TutorialModDataGenerator"
+		],
+		"client": [
+			"net.bige.tutorialmod.TutorialModClients"
 		]
 	},
 	"mixins": [
