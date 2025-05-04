@@ -22,7 +22,7 @@
 			"net.bige.tutorialmod.TutorialModDataGenerator"
 		],
 		"client": [
-			"net.bige.tutorialmod.TutorialModClients"
+			"net.bige.tutorialmod.TutorialModClient"
 		]
 	},
 	"mixins": [
