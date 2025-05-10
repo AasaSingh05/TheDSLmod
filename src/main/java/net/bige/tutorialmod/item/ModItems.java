@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     //actual item registration here
     public static final Item TESTING_ITEM = registerItem("testing_item", new Item(new Item.Settings()));
+    
 
     //this is to register the item into the game files
     private static Item registerItem(String name, Item item){
@@ -21,8 +22,8 @@ public class ModItems {
     public static void registerModItems(){
         TutorialMod.LOGGER.info("Registering items for mod: " + TutorialMod.MOD_ID);
 
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-//            fabricItemGroupEntries.add();
-//        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(TESTING_ITEM);
+        });
     }
 }
