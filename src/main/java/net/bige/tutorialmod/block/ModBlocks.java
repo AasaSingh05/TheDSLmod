@@ -39,7 +39,7 @@ public class ModBlocks {
     public static void registerModBlocks(){
         TutorialMod.LOGGER.info("Registering Mod blocks related to : " + TutorialMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(fabricItemGroupEntries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.TESTING_BLOCK);
         });
     }

@@ -1,3 +1,5 @@
 {
-  "item.tutorialmod.testing_item" : "Orb of Mystery"
+  "item.tutorialmod.testing_item" : "Orb of Mystery",
+
+  "block.tutorialmod.testing_block" : "Mystery Block?"
 }
